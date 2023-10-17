@@ -43,6 +43,8 @@ function Draw()
     }
     
     Player.tick();
+    Player.tick();
+    Player.tick();
     Player.draw();
     for (let i = 0; i < Walls.length; i++) {
         Walls[i].draw(Player);
